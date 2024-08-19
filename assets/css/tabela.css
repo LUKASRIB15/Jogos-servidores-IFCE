@@ -1,0 +1,64 @@
+
+
+.jogo{
+	font-family: "verdana";
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* Adicione a nova coluna "Chave" */
+th:nth-child(2),
+td:nth-child(2) {
+  width: 60px; /* Ajuste a largura para ocupar menos espaço */
+}
+
+/* Ajuste a largura da coluna "Data" para comportar a nova coluna "Chave" */
+
+
+/* Estilos gerais da tabela */
+table {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+}
+
+table,
+th,
+td {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 8px;
+  color: #333;
+}
+
+/* Estilos para os cabeçalhos da tabela */
+th {
+  background-color: #e7e1db;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Ajustes para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+  th,
+  td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2),
+  th:nth-child(4),
+  td:nth-child(4),
+  th:nth-child(5),
+  td:nth-child(5),
+  th:nth-child(6),
+  td:nth-child(6),
+  th:nth-child(7),
+  td:nth-child(7) {
+    width: auto;
+  }
+}
