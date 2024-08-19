@@ -9,6 +9,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root { /* Criei essa variável só pra facilitar a edição se precisar*/
+  --green: #20461A;
+  --green_w: #2f9e41;
+  --red: #c9141a;
+  --green_mobile: #0c2b07;
+}
+
+
+
 body {
   background: #fff;
   color: #2f3138;
@@ -16,7 +25,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: var(--red);
   text-decoration: none;
   transition: 0.5s;
 }
@@ -112,7 +121,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: var(--red); /* aqui onde tu mexe nos separadores*/
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -276,7 +285,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #f82249;
+  background-color: var(--green); /* é aqui que tu modifica a cor do hover no menu*/
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -433,7 +442,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #f82249;
+  color: var(--green);
 }
 
 .navbar-mobile .getstarted,
@@ -564,7 +573,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(var(--red) 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -861,7 +870,7 @@ h6 {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #cd191e;
+  background-color: var(--green_mobile);
   color: #fff;
 }
 
