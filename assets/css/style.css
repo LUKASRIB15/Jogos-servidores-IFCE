@@ -285,7 +285,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: var(--green); /* é aqui que tu modifica a cor do hover no menu*/
+  background-color: var(--red); /* é aqui que tu modifica a cor do hover no menu*/
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
