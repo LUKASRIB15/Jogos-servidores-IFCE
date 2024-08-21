@@ -672,7 +672,7 @@ h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("https://img.pikbest.com/backgrounds/20220119/european-cup-football-players-green-carnival-background_6234453.jpg!sw800");
+  background: url(/assets/img/banner_about/banner.png);
   background-size: cover;
   overflow: hidden;
   position: relative;
