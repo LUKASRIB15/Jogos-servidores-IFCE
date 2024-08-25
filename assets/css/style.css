@@ -165,7 +165,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(0, 148, 67, 0.96);
   height: 85px;
 }
 
@@ -960,13 +960,14 @@ h6 {
   height: 100%;
   min-height: 300px; 
 }
-.venue-tiangua {
-  background: url("https://sistemas.tiangua.ifce.edu.br/templates/02/assets/img/tiangua/10.jpg") top center no-repeat;
-  
-}
+
 
 .venue-aracati {
-  background: url("https://images.even3.com.br/5cH_xIDKuwLV6tUNjgy3QH9mFEQ=/1100x440/smart/even3.blob.core.windows.net/banner/IMAGE003.d5a19ef6dd7343fe943a.jpeg") top center no-repeat;
+  background: url("/assets/img/aracati/10.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: bottom; 
+
 }
 
 #venue .venue-info {
