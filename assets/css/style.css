@@ -1067,6 +1067,7 @@ h6 {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
+  height: 100%;
 }
 
 #hotels .hotel:hover .hotel-img img {
@@ -1453,6 +1454,13 @@ h6 {
 #contact .contact-email {
   margin-bottom: 20px;
 }
+
+#contact .contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media (min-width: 768px) {
 
