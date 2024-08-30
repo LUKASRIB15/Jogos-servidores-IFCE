@@ -225,11 +225,6 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 992px) {
-  .buy-tickets {
-    margin: 0 15px 0 0;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -744,11 +739,7 @@ h6 {
   opacity: 1;
 }
 
-@media(max-width: 768px){
-  #gallery-slider{
-    display: none;
-  }
-}
+
 
 #speakers {
   padding: 60px 0 30px 0;
@@ -1149,20 +1140,6 @@ h6 {
   text-align: center;
 }
 
-@media (min-width: 992px) {
-  #gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
-
-  #gallery .swiper-slide-active {
-    border: 5px solid #f82249;
-    padding: 4px;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.15);
-    margin-top: 6px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sponsors Section
@@ -2018,52 +1995,15 @@ h6 {
       width: 160%; 
       height: auto; 
 }
-  .slider {
-    height: auto; /* Permitir que a altura seja ajustável */
-  }
 
-  .slider .controles {
-    visibility: hidden;
-    top: 90%; /* Mover controles para baixo em telas menores */
-    left: 50%;
-    transform: translate(-50%, 0%);
-    width: 60px;
-    height: 60px;
+@media (max-width: 768px) {
+  #gallery {
+    display: none;
   }
+}
+ 
 
-  .slider .controles > div {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-    line-height: 30px;
-  }
-
-  .slider .wrapper {
-    flex-direction: column;
-  }
-
-  .slider .wrapper .left,
-  .slider .wrapper .right {
-    width: 100%;
-    height: auto;
-  }
-
-  .slider .wrapper .left h2 {
-    font-size: 30px;
-    padding: 0 20px;
-  }
-
-  .slider .wrapper .left p {
-    font-size: 16px;
-    padding: 0 20px;
-  }
-
-  .slider .wrapper .left > div {
-    padding: 0px 20px;
-  }
-
-  .slider .wrapper .right > div img {
-    height: auto;
-  }
+  
   
 }
+
