@@ -35,6 +35,35 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    button{
+      background-color: #3c9f3e;
+      border: 0;
+      border-radius: 10px;
+      padding: 16px;
+      color: #fafafa;
+      width: 100%;
+      max-width: 500px;
+      margin-top: 32px;
+
+      transition: all 0.2s ease;
+
+      &:hover{
+        background-color: #2e6e2f;
+      }
+    }
+  </style>
+
+  <script>
+    function baixarPDF() {
+      
+      const pdfUrl = 'Encontro_servidores.pdf';
+      const link = document.createElement('a');
+      link.href = pdfUrl;
+      link.download = 'Informativo_do_evento.pdf';
+      link.click();
+    }
+  </script>
 </head>
 
 <body>
@@ -222,6 +251,9 @@
                     <img src="assets/img/venue-gallery/trajeto_caminhada.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
+                <button class="button" onclick="baixarPDF()">
+                  Baixar informativo
+                </button>
               </div>
 
               <!-- <div class="col-lg-3 col-md-4">
@@ -234,7 +266,7 @@
           </div>
         </div> -->
 
-
+        
             </div>
         </section>
 
